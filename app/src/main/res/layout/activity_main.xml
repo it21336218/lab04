@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtemil"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/reedtemail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:hint="Re-Enter Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/reedtpasword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:hint="Re-Enter Password"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:text="submit" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="477dp"
+        android:layout_height="wrap_content"
+        android:text="cancel" />
+</LinearLayout>
